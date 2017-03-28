@@ -1,0 +1,115 @@
+body{
+    background-color: #fff;
+}
+/*banner图*/
+.xd_pc_img {
+    height: 430px;
+    width: 100%;
+    display: block;
+    -moz-background-size:cover; /* 老版本的 Firefox */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.xd_m_img {
+    width: 100%;
+    display: block;
+}
+
+/*内容中心*/
+.xd_pr {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.xd_pr_content {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.xd_pr_title {
+    width: 96%;
+    margin-left: 2%;
+    height: 50px;
+    border-bottom: solid 1px #999999;
+}
+
+.xd_pr_title span {
+    line-height: 50px;
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    float: left;
+}
+
+.xd_pr_con {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tab_btn_content,.tab_btn_content_two{
+    /*display: none;*/
+}
+
+/*.tab_btn_content:nth-child(4){*/
+    /*display: block;*/
+/*}*/
+.xd_pr_con .xd_pr_con_content {
+    margin-bottom: 30px;
+}
+
+.xd_pr_con .xd_pr_con_content img {
+    width: 100%;
+}
+
+.xd_pr_con .xd_pr_con_introduce {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    background-color: #1F9BFD;
+    position: absolute;
+    z-index: 1000;
+    margin-bottom: 30px;
+    bottom: 0;
+    width: 92.4%;
+    transition: all 400ms linear;
+    -moz-transition: all 400ms linear; /* Firefox 4 */
+    -webkit-transition: all 400ms linear; /* Safari 和 Chrome */
+    -o-transition: all 400ms linear; /* Opera */
+}
+
+.xd_pr_con .xd_pr_con_introduce p {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    /*text-indent: 2em;*/
+    height: 0;
+}
+
+.xd_pr_con_content:hover .xd_pr_con_introduce {
+    height: 93.85%;
+    opacity: 1;
+}
+
+.xd_pr_con > img {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.xd_pr_con > h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    line-height: 50px;
+    font-weight:bold;
+}
+@media screen and (max-width: 768px) {
+    .xd_pr_con > h4 {
+        font-size: 18px;
+    }
+}

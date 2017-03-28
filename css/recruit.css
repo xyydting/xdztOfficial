@@ -1,0 +1,150 @@
+body {
+    background-color: #fff;
+}
+
+/*banner图*/
+.xd_pc_img {
+    height: 610px;
+    width: 100%;
+    display: block;
+    -moz-background-size: cover; /* 老版本的 Firefox */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.xd_m_img {
+    width: 100%;
+    display: block;
+}
+
+/*内容中心*/
+.re_con {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.re_company, .re_message {
+    margin-top: 50px;
+}
+
+.re_company > h4, .re_message > h4 {
+    line-height: 50px;
+    padding-left: 15px;
+    background-color: #ffe400;
+    color: #000000;
+    font-size: 22px;
+    display: block;
+    width: 98%;
+    margin-left: 1%;
+}
+
+.re_company_con {
+    width: 98%;
+    margin-left: 1%;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.re_company_con > p {
+    font-size: 18px;
+    color: #000000;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.re_company_con > p:nth-child(1) {
+    text-indent: 2em;
+}
+
+.re_company_con img {
+    width: 40%;
+    position: absolute;
+    bottom: -15%;
+    right: 10%;
+}
+
+.re_message_con {
+    width: 98%;
+    margin-left: 1%;
+    padding-bottom: 50px;
+}
+
+/*招聘信息部分*/
+.re_message_title {
+    width: 98%;
+    margin-left: 1%;
+}
+
+.re_message_title .col-xs-3 {
+    padding: 0;
+}
+
+.re_message_con > ul > li > .re_message_title > h4, .re_message_con > ul > li > .re_message_title > h5 {
+    float: left;
+    color: #000000;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: solid 1px #000000;
+    font-size: 20px;
+}
+
+.re_message_con > ul > li > .re_message_title > h5 {
+    font-size: 18px;
+}
+
+.re_message_content {
+    width: 100%;
+    padding-left: 10%;
+    border-bottom: solid 1px #000000;
+    display: none;
+}
+
+.re_message_con ul li:nth-child(2) .re_message_content {
+    display: block;
+}
+
+.re_message_content > h5 {
+    color: #000000;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.re_message_content > p {
+    color: #000000;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.re_message_title .re_mess_img_bot {
+    margin: 18px;
+}
+
+.xd_re_img_rotate {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari and Chrome */
+    -o-transform: rotate(180deg); /* Opera */
+    -moz-transform: rotate(180deg); /* Firefox */
+}
+
+@media only screen and (max-width: 767px) {
+    .re_company > h4, .re_message > h4{
+        font-size: 18px;
+    }
+    .re_company_con > p{
+        font-size: 16px;
+    }
+    .re_message_con > ul > li > .re_message_title > h4, .re_message_con > ul > li > .re_message_title > h5{
+        font-size: 14px;
+    }
+    .re_message_content > h5{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 768px) and(max-width: 991px) {
+
+}

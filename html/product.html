@@ -1,0 +1,777 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" ,user-scalable="no">
+    <meta name="keywords" content="动车,高铁,城铁,动车组客车,高铁客车">
+    <meta name="description" content="描述">
+    <title>北京鑫达泽通科技有限公司</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/product.css">
+</head>
+<body>
+<!--导航-->
+<nav class="nav-content">
+    <div class="container">
+        <div class="nav_logo col-lg-5 col-md-5 col-sm-7 col-xs-10">
+            <img class="xd_nav_logo" src="../img/index_nav_logo.png">
+        </div>
+        <div class="pc_nav col-lg-6 col-lg-offset-1 col-md-7  hidden-sm hidden-xs">
+            <ul>
+                <li class="col-lg-2 col-md-2"><a href="../index.html">首页</a></li>
+                <li class="col-lg-2 col-md-2"><a href="./about.html">关于我们</a></li>
+                <li id="list_content" class="col-lg-2 col-md-2"><a class="pc_nav_a" href="#">产品介绍</a></li>
+                <li class="col-lg-2 col-md-2"><a href="tradePolicy.html">新闻中心</a></li>
+                <li class="col-lg-2 col-md-2"><a href="./recruit.html">英才招聘</a></li>
+                <li class="col-lg-2 col-md-2"><a href="./contactUs.html">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="visible-sm visible-xs col-sm-2 col-sm-offset-3 col-xs-2">
+            <img class="m_nav_icon" src="../img/nav_m_icon.png" alt=""/>
+        </div>
+    </div>
+</nav>
+<!--移动端下拉列表-->
+<div class="m_nav_content hidden-lg hidden-md">
+    <ul>
+        <li><a href="../index.html">首页</a></li>
+        <li><a href="./about.html">关于我们</a></li>
+        <li class="about_m_List">
+            <a href="#">产品介绍</a>
+            <ul class="m_nav_content_ul1">
+                <li>
+                    <h4>配件销售</h4>
+                    <ul class="m_nav_content_ul2 m_tab_btn_peij">
+                        <li><a>温控系统</a></li>
+                        <li><a>供电系统</a></li>
+                        <li><a>电气控制系统</a></li>
+                        <li><a>环保系统</a></li>
+                        <li><a>制动系统</a></li>
+                        <li><a>网络信息系统</a></li>
+                        <li><a>餐车维护系统</a></li>
+                        <li><a>客服设施</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>设备技术服务</h4>
+                    <ul class="m_nav_content_ul2 m_tab_btn_sheb">
+                        <li><a>轮对检修线</a></li>
+                        <li><a>空压机检修线</a></li>
+                        <li><a>增压缸检修线</a></li>
+                        <li><a>牵引电机检修线</a></li>
+                        <li><a>制动装置检修线</a></li>
+                        <li><a>牵引变流器检修线</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>大部件检修</h4>
+                    <ul class="m_nav_content_ul2 m_tab_btn_weib">
+                        <li><a>一级修-动车组</a></li>
+                        <li><a>二级修-动车组</a></li>
+                        <li><a>三级修-动车组</a></li>
+                        <li><a>厂修-城轨</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="tradePolicy.html">新闻中心</a></li>
+        <li><a href="./recruit.html">英才招聘</a></li>
+        <li><a href="./contactUs.html">联系我们</a></li>
+    </ul>
+</div>
+<!--pc端下拉列表-->
+<div class="xd_pro_List">
+    <div class="container">
+        <div class="xd_pro_List_type col-lg-4 col-md-4 hidden-sm hidden-xs tab_btn_peij">
+            <h4>配件销售</h4>
+            <ul>
+                <li><a>温控系统</a></li>
+                <li><a>供电系统</a></li>
+                <li><a>电气控制系统</a></li>
+                <li><a>环保系统</a></li>
+                <li><a>制动系统</a></li>
+                <li><a>网络信息系统</a></li>
+                <li><a>餐车维护系统</a></li>
+                <li><a>客服设施</a></li>
+            </ul>
+        </div>
+        <div class="xd_pro_List_type col-lg-4 col-md-4 hidden-sm hidden-xs tab_btn_sheb">
+            <h4>设备技术服务</h4>
+            <ul>
+                <li><a>轮对检修线</a></li>
+                <li><a>空压机检修线</a></li>
+                <li><a>增压缸检修线</a></li>
+                <li><a>牵引电机检修线</a></li>
+                <li><a>制动装置检修线</a></li>
+                <li><a>牵引变流器检修线</a></li>
+            </ul>
+        </div>
+        <div class="xd_pro_List_type col-lg-4 col-md-4 hidden-sm hidden-xs tab_btn_weib">
+            <h4>大部件检修</h4>
+            <ul>
+                <li><a>一级修-动车组</a></li>
+                <li><a>二级修-动车组</a></li>
+                <li><a>三级修-动车组</a></li>
+                <li><a>厂修-城轨</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--banner图-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <a class="xd_pc_img hidden-xs hidden-sm" href="#"
+               style="background-image: url('../img/product_banner.jpg')"></a>
+            <a class="xd_m_img hidden-lg hidden-md" href="#">
+                <img src="../img/product_banner_small.jpg" alt=""/>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--内容主体-->
+<div class="xd_pr">
+    <div class="container containerBorder">
+        <div class="xd_pr_content">
+        <!-- 配件销售组 -->
+        <!--配件销售>温控系统-->
+        <div class="tab_content_peij">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">配件销售></span>
+                    <span class="titlethree">温控系统</span>
+                </div>
+                <div class="xd_pr_con">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_1.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>电加热</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_2.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>电加热器</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_3.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>电加热芯板</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_4.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>电解热管</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_5.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>空气预热器</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_6.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>空调机组</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_7.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>冷凝器</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_8.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>离心风机</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_9.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>气液分离器</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_10.png" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>压缩机</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_11.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>压缩机</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_12.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>蒸发器</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_wkxt_13.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>轮流风机</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        <!--配件销售>供电系统-->
+        <div class="tab_content_peij">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">配件销售></span>
+                    <span class="titlethree">供电系统</span>
+                </div>
+                <div class="xd_pr_con">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_dlkzxt_1.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>柴油发电机</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                    </div>
+                    <div class="clearfix"></div>
+                    <h4>受电弓及弓配件</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_dqkzxt_1.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>城轨逆变配件—触头</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/ct/pro_dlkzxt_2.jpg" style="margin-bottom:100px;"  alt=""/>
+                    
+                    
+                </div>
+            </div>
+        <!--配件销售>电气控制系统-->
+        <div class="tab_content_peij">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">配件销售></span>
+                    <span class="titlethree">电气控制系统</span>
+                </div>
+                <div class="xd_pr_con">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_dlkzxt_2.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>发电车控制屏</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_dlkzxt_3.png" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>控制柜</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        
+                    </div>
+                    <div class="clearfix"></div>
+                    <h4 style="margin-top:100px;">城轨控制柜配件</h4><br>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/ct/pro_dlkzxt_1.jpg" alt=""/><br/>
+                    
+                    
+                </div>
+            </div>
+        <!--配件销售>环保系统-->
+        <div class="tab_content_peij">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">配件销售></span>
+                    <span class="titlethree">环保系统</span>
+                </div>
+                <div class="xd_pr_con">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/kc/pro_hbxt_1.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>集便器</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        <!--配件销售>制动系统-->
+        <div class="tab_content_peij">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">配件销售></span>
+                    <span class="titlethree">制动系统</span>
+                </div>
+                <div class="xd_pr_con">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/pro_zdxt_1.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>闸片</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        <!--配件销售>网络信息系统-->
+        <div class="tab_content_peij">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">配件销售></span>
+                    <span class="titlethree">网络信息系统</span>
+                </div>
+                <div class="xd_pr_con">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/pro_xsxt_1.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>车载电视</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/pro_xsxt_2.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>车载电视</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        <!--配件销售>餐车维护系统-->
+        <div class="tab_content_peij">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">配件销售></span>
+                    <span class="titlethree">餐车维护系统</span>
+                </div>
+                <div class="xd_pr_con">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/pro_ccwhxt_1.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>餐吧储藏柜门锁</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/pro_ccwhxt_3.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>餐吧柜门锁</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/pro_ccwhxt_4.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>餐吧门锁</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        <!--配件销售>客服设施-->
+        <div class="tab_content_peij">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">配件销售></span>
+                    <span class="titlethree">客服设施</span>
+                </div>
+                <div class="xd_pr_con">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/pro_zhxt_1.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>电茶炉</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_1.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>二等座</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_2.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>二等座端墙桌板</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_3.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>二等座扶手</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_4.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>二等座扶手盖板</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_5.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>二等座扶手支架</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_6.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>二等座靠背螺栓</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_7.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>二等座杂志袋</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_8.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>小桌板</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_9.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>一等座</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_10.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>一等座脚踏</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_11.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>一等座书报袋</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_12.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>一等座折叠桌布</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="xd_pr_con_content">
+                            <img src="../img/dc/prp_zkxt_13.jpg" alt=""/>
+
+                            <div class="xd_pr_con_introduce">
+                                <p>座位底座</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+        <!-- 设备技术服务组 -->
+        <!--设备技术服务>轮对检修线-->
+        <div class="tab_content_sheb">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">设备技术服务></span>
+                    <span class="titlethree">轮对检修线</span>
+                </div>
+                <div class="xd_pr_con">
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_sb_1.jpg" alt=""/>
+                </div>
+            </div>
+        <!--设备技术服务>空压机检修线-->
+        <div class="tab_content_sheb">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">设备技术服务></span>
+                    <span class="titlethree">空压机检修线</span>
+                </div>
+                <div class="xd_pr_con">
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_sb_2.jpg" alt=""/>
+                </div>
+            </div>
+        <!--设备技术服务>增压缸检修线-->
+        <div class="tab_content_sheb">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">设备技术服务></span>
+                    <span class="titlethree">增压缸检修线</span>
+                </div>
+                <div class="xd_pr_con">
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_sb_3.jpg" alt=""/>
+                </div>
+            </div>
+        <!--设备技术服务>牵引电机检修线-->
+        <div class="tab_content_sheb">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">设备技术服务></span>
+                    <span class="titlethree">牵引电机检修线</span>
+                </div>
+                <div class="xd_pr_con">
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_sb_4.jpg" alt=""/>
+                </div>
+            </div>
+        <!--设备技术服务>制动装置检修线-->
+        <div class="tab_content_sheb">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">设备技术服务></span>
+                    <span class="titlethree">制动装置检修线</span>
+                </div>
+                <div class="xd_pr_con">
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_sb_5.jpg" alt=""/>
+                </div>
+            </div>
+        <!--设备技术服务>牵引变流器检修线-->
+        <div class="tab_content_sheb">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">设备技术服务></span>
+                    <span class="titlethree">牵引变流器检修线</span>
+                </div>
+                <div class="xd_pr_con">
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_sb_6.jpg" alt=""/>
+                </div>
+            </div>
+        
+            
+
+        <!-- 大部件检修组 -->
+        <!--大部件检修>一级修-动车组-->
+        <div class="tab_content_weib">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">大部件检修></span>
+                    <span class="titlethree">一级修-动车组</span>
+                </div>
+                <div class="xd_pr_con">
+                    <h4>车顶保洁</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_wb_1_1.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>车皮保洁</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_wb_1_2.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>空调滤网保洁</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_wb_1_3.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>裙板滤网保洁</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_wb_1_4.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>裙底板质量检验</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_wb_1_5.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>吸污</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_wb_1_6.jpg" alt=""/>
+                    
+                </div>
+            </div>
+        <!--大部件检修>二级修-动车组-->
+        <div class="tab_content_weib">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">大部件检修></span>
+                    <span class="titlethree">二级修-动车组</span>
+                </div>
+                <div class="xd_pr_con">
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_wb_2_1.jpg" alt=""/>   
+                </div>
+            </div>
+        <!--大部件检修>三级修-动车组-->
+        <div class="tab_content_weib">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">大部件检修></span>
+                    <span class="titlethree">三级修-动车组</span>
+                </div>
+                <div class="xd_pr_con">
+                    <h4>转向架检修</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_wb_3_1.jpg" alt=""/>
+                    
+                </div>
+            </div>
+        <!--大部件检修>厂修-城轨-->
+        <div class="tab_content_weib">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">大部件检修></span>
+                    <span class="titlethree">厂修-城轨</span>
+                </div>
+                <div class="xd_pr_con">
+                    <h4>电抗器检修</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/ct/pro_wb_1.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>开关箱检修</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/ct/pro_wb_2.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>司控器检修</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/ct/pro_wb_3.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>快速开关检修</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/ct/pro_wb_4.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>斩波装置检修</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/ct/pro_wb_5.jpg" style="margin-bottom:100px;"  alt=""/>
+                    <h4>应急通风电源检修</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/ct/pro_wb_6.jpg" alt=""/>
+                    
+                </div>
+            </div>
+           
+
+        <!-- 首页产品推荐跳转的内容 -->
+        <!-- 配件销售 -->
+        <div class="tab_content_weib">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">配件销售</span>
+                </div>
+                <div class="xd_pr_con">
+                    <h4>受电弓及弓配件</h4>
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/dc/pro_dqkzxt_1.jpg" alt=""/>
+                    
+                </div>
+            </div>
+        <!-- 设备技术服务 -->
+        <div class="tab_content_weib">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">设备技术服务</span>
+                </div>
+                <div class="xd_pr_con">
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/ct/index_jis.jpg" alt=""/>
+                    
+                </div>
+            </div>
+        <!-- 大部件检修 -->
+        <div class="tab_content_weib">
+                <div class="xd_pr_title">
+                    <span class="titleone">产品介绍页></span>
+                    <span class="titletwo">大部件检修</span>
+                </div>
+                <div class="xd_pr_con">
+                    <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../img/ct/index_jianx.jpg" alt=""/>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 版权-->
+<footer class="xd_footer">
+    <p>北京鑫达泽通科技有限公司&nbsp;&nbsp;版权所有© </p>
+
+    <p>京ICP备17001559号</p>
+</footer>
+</body>
+<!--[if lt IE 9]>
+<script src="../lib/bootstrap/js/html5shiv.min.js"></script>
+<script src="../lib/bootstrap/js/respond.min.js"></script>
+<![endif]-->
+<script src="../lib/jquery-3.1.1.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/product.js"></script>
+</html>

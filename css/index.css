@@ -1,0 +1,249 @@
+body {
+    background-color: #f4f7fe;
+}
+
+/*轮播图*/
+.xd_pc_img {
+    height: 630px;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    -moz-background-size: cover; /* 老版本的 Firefox */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.xd_m_img {
+    width: 100%;
+    display: block;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+/*产品推荐*/
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .col-xs-6 {
+        padding: 3px;
+    }
+}
+
+.xd_ps_pf, .xd_ps_mf {
+    margin-top: 30px;
+}
+
+.xd_ps_p {
+    text-align: center;
+}
+
+.xd_ps_p1 {
+    font-size: 20px;
+    color: #333333;
+}
+.xd_ps_p1_2{
+    font-size: 20px;
+    color: #ffffff;
+}
+.xd_ps_p2 {
+    font-size: 18px;
+    font-style: italic;
+    color: #9a9a9a;
+}
+.xd_ps_p2_2 {
+    font-size: 18px;
+    font-style: italic;
+    color: #dfdfdf;
+}
+.xd_ps_content {
+    margin-top: 20px;
+    background: white;
+    border: solid 1px #dfdadf;
+    border-radius: 15px;
+    transition: all 500ms linear;
+    -moz-transition: all 500ms linear; /* Firefox 4 */
+    -webkit-transition: all 500ms linear; /* Safari 和 Chrome */
+    -o-transition: all 500ms linear; /* Opera */
+}
+
+.xd_ps_content > a {
+    display: block;
+}
+
+.xd_ps_content .xd_ps_icon1 {
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+}
+
+.xd_ps_content .xd_ps_icon1:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -o-transform: scale(1.1); /* Opera */
+    -moz-transform: scale(1.1); /* Firefox */
+}
+
+/*公司新闻*/
+.col-lg-6 {
+    padding: 0;
+}
+
+.xd_news {
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    background: url("../img/index_news_bg.jpg") no-repeat center;
+    -moz-background-size: cover; /* 老版本的 Firefox */
+    background-size: cover;
+    padding-top: 1px;
+}
+
+.xd_news_con {
+    margin-top: 30px;
+}
+
+.xd_news_lt img {
+    width: 100%;
+    height: 350px;
+}
+
+.xd_news_btl {
+    background-color: #d2ab74;
+    padding: 10px 10px;
+    height: 240px;
+    position: relative;
+}
+
+.xd_news_btl a {
+    display: block;
+    color: #ffffff;
+    width: 90%;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: solid 1px #ffffff;
+}
+
+.xd_news_btl p {
+    text-indent: 2em;
+    margin-top: 10px;
+    color: #ffffff;
+    height: 126px;
+    overflow: auto;
+    font-size: 14px;
+}
+
+.xd_news_btl span {
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.xd_news_btr {
+    background-color: #fff;
+    padding: 10px 20px;
+    height: 240px;
+}
+
+.xd_news_btr a {
+    display: block;
+    color: #000000;
+    line-height: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: solid 1px #000;
+}
+
+.xd_news_btr p {
+    text-indent: 2em;
+    margin-top: 10px;
+    color: #999999;
+    display: block;
+    height: 120px;
+    overflow: auto;
+    font-size: 14px;
+}
+
+.xd_news_btr span {
+    margin-top: 10px;
+    color: #999999;
+    font-size: 14px;
+    float: right;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.xd_news_rl .xd_news_btr {
+    height: 300px;
+    position: relative;
+}
+
+.xd_news_rl .xd_news_btr p {
+    height: 170px;
+}
+
+.xd_news_right img {
+    width: 100%;
+    height: 291px;
+}
+
+.xd_news_tu2 {
+    width: 100%;
+    height: 160px;
+    background: url(../img/index_news3.jpg) no-repeat center;
+}
+
+.xd_news_more {
+    width: 100%;
+    height: 100px;
+    background-color: #cb3034;
+    line-height: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+.xd_news_more a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.xd_news_rr .xd_news_btr {
+    height: 331px;
+    position: relative;
+}
+
+.xd_news_rr .xd_news_btr p {
+    height: 200px;
+}
+@media only screen and (max-width: 991px) {
+    .xd_news_btr{
+        padding: 5px;
+    }
+    .xd_news_btr a{
+        font-size: 14px;
+    }
+    .xd_news_btl a{
+        width: 100%;
+    }
+    .xd_news_more{
+        height: 50px;
+        line-height: 50px;
+    }
+    .xd_news_rr .xd_news_btr{
+        height: 381px;
+    }
+    .xd_news_rr .xd_news_btr p {
+        height: 240px;
+    }
+}
