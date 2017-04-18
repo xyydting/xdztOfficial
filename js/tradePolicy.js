@@ -41,7 +41,15 @@ window.onload = function(){
         }
     });
 
-
+	//行业动态和公司新闻不自动轮播
+	$('#carousel-example-generic2').carousel({
+           pause: true,
+           interval: false
+        });
+    $('#carousel-example-generic3').carousel({
+           pause: true,
+           interval: false
+        });
 
 
 
