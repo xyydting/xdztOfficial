@@ -57,6 +57,15 @@ window.onload=function(){
     m_tab_btn_weib.on('click', function () {
         $('.m_nav_content').slideUp(300);
     });
-    setprobucturl(tab_btn_arr,'./html/product.html');
-    setprobucturl(mobile_tab_btn_arr,'./html/product.html');
+
+    
+    //图片点击加载
+    //获取pc端按钮
+    var btnLoadImg = $('.xd_pro_List').find('ul').children('li');
+    //获取m端按钮
+    var m_btnLoadImg = $('.m_nav_content_ul1').find('ul').children('li');
+    // console.log(btnLoadImg,m_btnLoadImg);
+
+    setprobucturl(tab_btn_arr,btnLoadImg,'./html/product.html');
+    setprobucturl(mobile_tab_btn_arr,m_btnLoadImg,'./html/product.html');
 };

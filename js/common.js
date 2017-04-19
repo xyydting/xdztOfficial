@@ -46,16 +46,16 @@ var commonlist = function () {
 
 
     //解决列表因浮动撑不起父盒子问题
-    $('.pei_re').on('mouseover',function(){
+    $('.pei_re').on('mouseover', function () {
         var reheight = $(this).parents('ul').height();
         var height = $(this).find('.pei_List').height();
-        if(reheight > height){
+        if (reheight > height) {
             height = reheight;
         }
         console.log(height);
-        $(this).parents('ul').parents('.xd_pro_List_type').css('height',height);
-        $(this).on('mouseout',function(){
-            $(this).parents('ul').parents('.xd_pro_List_type').css('height','auto');
+        $(this).parents('ul').parents('.xd_pro_List_type').css('height', height);
+        $(this).on('mouseout', function () {
+            $(this).parents('ul').parents('.xd_pro_List_type').css('height', 'auto');
         })
     });
 
@@ -87,13 +87,38 @@ var tab_location = function (num, index, contentObjsArr) {
 };
 
 //设置其他页面跳转product的url
-var setprobucturl = function (btnarr, url) {
+var setprobucturl = function (btnarr, btnLoadImg, url) {
+    var urlJSON = '';
     $.each(btnarr, function (num, tabbtnObjs) {
         $.each(tabbtnObjs, function (index, item) {
             $(item).on('click', function () {
-                var urlJSON = url + '?&num=' + num + '&index=' + index;
-                window.location.href = urlJSON;
+                urlJSON = url + '?&num=' + num + '&index=' + index;
+                // window.location.href = urlJSON;
+                console.log(urlJSON);
             })
         })
     });
+    $.each(btnLoadImg, function (imgboxIndex, item) {
+        $(item).on('click', function () {
+            urlJSON += '&imgboxIndex=' + imgboxIndex;
+            console.log(urlJSON);
+            window.location.href = urlJSON;
+        });
+    })
+
 };
+
+
+//点击tab加载相应的图片
+var tabLoadImg = function (index) {
+    // console.log($(this));
+    // console.log($('.xd_pr_content').children('div'));
+    var imgbox = $('.xd_pr_content').children('div');
+    // var srcarr = [];
+    $(imgbox[index]).find('img').each(function (i, item) {
+        var srcstr = $(item).attr('data-src');
+        $(item).attr('src', srcstr);
+        //    srcarr.push(srcstr);
+    })
+    // console.log(srcarr);
+}

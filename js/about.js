@@ -8,6 +8,10 @@ window.onload = function () {
             $(this).children('a').addClass('about_tab_li_active');
             $(this).siblings('li').children('a').removeClass('about_tab_li_active');
             $(tab_content[index]).siblings('div').hide();
+            $(tab_content[index]).find('img').each(function(index,item){
+                var absrc = $(item).attr('data-src');
+                $(item).attr('src',absrc);
+            });
             $(tab_content[index]).show();
         })
     });
@@ -39,6 +43,13 @@ window.onload = function () {
         $('.m_nav_content').slideUp(300);
     });
 
-    setprobucturl(tab_btn_arr,'./product.html');
-    setprobucturl(mobile_tab_btn_arr,'./product.html');
+    //图片点击加载
+    //获取pc端按钮
+    var btnLoadImg = $('.xd_pro_List').find('ul').children('li');
+    //获取m端按钮
+    var m_btnLoadImg = $('.m_nav_content_ul1').find('ul').children('li');
+    // console.log(btnLoadImg,m_btnLoadImg);
+
+    setprobucturl(tab_btn_arr,btnLoadImg,'./product.html');
+    setprobucturl(mobile_tab_btn_arr,m_btnLoadImg,'./product.html');
 };

@@ -41,15 +41,7 @@ window.onload = function(){
         }
     });
 
-	//行业动态和公司新闻不自动轮播
-	$('#carousel-example-generic2').carousel({
-           pause: true,
-           interval: false
-        });
-    $('#carousel-example-generic3').carousel({
-           pause: true,
-           interval: false
-        });
+
 
 
 
@@ -80,6 +72,14 @@ window.onload = function(){
     m_tab_btn_weib.on('click', function () {
         $('.m_nav_content').slideUp(300);
     });
-    setprobucturl(tab_btn_arr,'./product.html');
-    setprobucturl(mobile_tab_btn_arr,'./product.html');
+    
+    //图片点击加载
+    //获取pc端按钮
+    var btnLoadImg = $('.xd_pro_List').find('ul').children('li');
+    //获取m端按钮
+    var m_btnLoadImg = $('.m_nav_content_ul1').find('ul').children('li');
+    // console.log(btnLoadImg,m_btnLoadImg);s
+
+    setprobucturl(tab_btn_arr,btnLoadImg,'./product.html');
+    setprobucturl(mobile_tab_btn_arr,m_btnLoadImg,'./product.html');
 };
