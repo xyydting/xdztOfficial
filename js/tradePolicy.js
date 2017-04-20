@@ -5,6 +5,16 @@ window.onload = function(){
     $(window).on("resize", function () {
        location.reload();
     });
+    
+    //公司新闻和行业动态的自动轮播问题
+    $('#carousel-example-generic2').carousel({
+           pause: true,
+           interval: false
+        });
+        $('#carousel-example-generic3').carousel({
+           pause: true,
+           interval: false
+        });
 
     //综合行业动态公司新闻样式及锚链接效果
     $('.xs_news_left_List').children('ul').children('li').on('click',function(){
