@@ -114,11 +114,9 @@ var tabLoadImg = function (index) {
     // console.log($(this));
     // console.log($('.xd_pr_content').children('div'));
     var imgbox = $('.xd_pr_content').children('div');
-    // var srcarr = [];
     $(imgbox[index]).find('img').each(function (i, item) {
         var srcstr = $(item).attr('data-src');
         $(item).attr('src', srcstr);
-        //    srcarr.push(srcstr);
+        console.log(item);
     })
-    // console.log(srcarr);
 }
