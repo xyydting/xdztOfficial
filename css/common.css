@@ -122,6 +122,7 @@ body {
 }
 
 .pc_nav > ul > li {
+	width: 14.2%;
     float: left;
 }
 

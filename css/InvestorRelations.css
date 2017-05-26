@@ -1,0 +1,209 @@
+body{
+    background-color: #fff;
+}
+
+/*banner图*/
+.xd_pc_img {
+    height: 540px;
+    width: 100%;
+    display: block;
+    -moz-background-size: cover; /* 老版本的 Firefox */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.xd_m_img {
+    width: 100%;
+    display: block;
+}
+
+/*内容信息*/
+.xd_about_mess {
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+.xd_about_mess_l {
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.xd_about_mess_lm_wai ul li {
+    text-align: center;
+   border-bottom: 2px dashed #898989;
+}
+
+.xd_about_mess_lm_wai ul li img {
+    margin: 0 auto;
+}
+
+
+
+.xd_about_mess_lm_wai ul li .about_icon2 {
+    display: none;
+}
+
+.xd_about_mess_lm_wai ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #898989;
+    line-height: 90px;
+}
+
+.xd_about_mess_lm_wai ul li:hover a {
+    color: #1F9BFD;
+}
+
+.xd_about_mess_lm_wai ul li:hover .about_icon1 {
+    display: none;
+}
+
+.xd_about_mess_lm_wai ul li:hover .about_icon2 {
+    display: block;
+}
+.about_tab_con_title{
+	border-bottom: solid 2px #ECECEC;
+	margin-bottom: 20px;
+}
+.about_tab_con_title h4{
+	line-height: 60px;
+	font-size: 20px;
+}
+/*知识普及栏目*/
+.knowledge{
+	background-color: #F7F7F7;
+	margin-bottom: 20px;
+}
+.knowledge a{
+	color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 50px;
+	text-decoration: none;
+}
+.knowledge p{
+	color: #929292;
+}
+.xd_about_introduce {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.xd_about_introduce_content {
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.xd_about_mess > .container {
+    padding-top: 15px;
+}
+
+.xd_about_introduce_img {
+    float: left;
+    width: 32%;
+    margin-right: 20px;
+}
+
+.xd_about_introduce > img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.member h4, .member h5, .member p {
+    display: block;
+    color: #000000;
+}
+
+.member h4 {
+    font-size: 20px;
+    width: 115px;
+    margin: 0 auto;
+    line-height: 50px;
+    padding: 0 15px;
+    border-bottom: solid 1px #1F9BFD;
+}
+
+.member h5 {
+    font-size: 18px;
+    width: 320px;
+    margin: 20px auto;
+    line-height: 50px;
+    padding: 0 15px;
+    border-bottom: solid 1px #1F9BFD;
+}
+
+.member h5:nth-child(2) {
+    width: 265px;
+}
+
+.member p {
+    font-size: 14px;
+    text-indent: 2em;
+    margin-top: 20px;
+    line-height: 30px;
+
+}
+
+/*调研记录栏目*/
+.xd_about_organization_content {
+    margin: 20px auto;
+}
+
+.xd_about_organization_content img {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.xd_about_organization_content h4 {
+    text-align: center;
+    line-height: 50px;
+    color: #000000;
+    border-top: solid 1px #000000;
+}
+
+/*问答记录栏目*/
+.xd_about_organization {
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.xd_about_organization_content {
+    margin: 20px auto;
+}
+
+.xd_about_organization_content img {
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .xd_about_introduce_img {
+        width: 100%;
+    }
+
+    .xd_about_mess_lm_wai ul li a {
+        font-size: 18px;
+    }
+
+    .xd_about_mess_lm_wai ul li img {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 768px) and(max-width: 991px) {
+    .xd_about_introduce_img {
+        width: 50%;
+    }
+
+    .xd_about_mess_lm_wai ul li a {
+        font-size: 18px;
+    }
+
+    .xd_about_mess_lm_wai ul li img {
+        width: 90%;
+    }
+}
